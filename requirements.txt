@@ -1,0 +1,8 @@
+
+pymupdf
+pandas
+numpy
+plotly
+groq
+sentence-transformers
+streamlit
