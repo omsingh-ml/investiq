@@ -1,4 +1,3 @@
-import json
 import os
 import streamlit as st
 from sentence_transformers import SentenceTransformer
@@ -163,16 +162,6 @@ if uploaded_report is not None:
             metrics
         )
 
-        with open(
-            "/content/investiq/data/current_financial_metrics.json",
-            "w"
-        ) as f:
-
-            json.dump(
-                metrics,
-                f,
-                indent=2
-            )
 
     st.success(
         f"✅ Report processed successfully — "
