@@ -1,5 +1,6 @@
-
 # InvestIQ
+
+🚀 **Launch InvestIQ Live Demo:** https://investiq-jkrfpgksbhbfdupeappuqk.streamlit.app/
 
 AI-powered Annual Report Intelligence Platform.
 
@@ -63,7 +64,6 @@ The system:
 
 ## Project Structure
 
-```text
 investiq/
 ├── app.py
 ├── requirements.txt
@@ -74,3 +74,23 @@ investiq/
 │   ├── analytics.py
 │   └── rag_pipeline.py
 └── data/
+
+## Running the Application
+
+Install dependencies:
+
+    pip install -r requirements.txt
+
+Set the Groq API key:
+
+    export GROQ_API_KEY='your_api_key'
+
+Run Streamlit:
+
+    streamlit run app.py
+
+## Important
+
+Do not commit API keys, uploaded annual reports, or generated financial data to GitHub.
+
+Apple's 2025 annual report was used as a development test document. The application is designed to process uploaded annual reports dynamically.
